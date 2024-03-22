@@ -332,7 +332,7 @@ export async function buildCanvas(
     return;
   }
 
-  await loadFonts();
+  // await loadFonts();
 
   await Promise.allSettled([
     await drawBackground(ctx),
