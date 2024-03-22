@@ -1,6 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { buildCanvas } from '../../lib/canvas';
 
+export const runtime = 'edge';
+
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Buffer | string>

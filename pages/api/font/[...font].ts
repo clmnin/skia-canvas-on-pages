@@ -2,6 +2,8 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import { promises as fs } from 'fs';
 import path from 'path';
 
+export const runtime = 'edge';
+
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Buffer>
