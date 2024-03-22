@@ -9,7 +9,7 @@ export function cleanObject(obj: Record<string, any>) {
 export function getBaseUrl() {
   return process.env.NEXT_PUBLIC_VERCEL_URL
     ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
-    : 'http://localhost:3000';
+    : 'http://localhost:8788';
 }
 
 export function isValidUrl(str: string) {
