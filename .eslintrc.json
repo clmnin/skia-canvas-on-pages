@@ -1,7 +1,9 @@
 {
   "extends": [
     "next/core-web-vitals",
-    "plugin:eslint-plugin-next-on-pages/recommended"
+    "plugin:eslint-plugin-next-on-pages/recommended",
+    "airbnb", 
+    "prettier"
   ],
   "plugins": [
     "eslint-plugin-next-on-pages"
